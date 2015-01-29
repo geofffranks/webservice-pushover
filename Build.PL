@@ -15,11 +15,11 @@ my $builder = Module::Build->new(
         'DateTime::Format::Strptime'           => 0,
         'File::Spec'                           => 0,
         'Moo'                                  => 0,
-        'Net::HTTP::Spore'                     => 0,
-        'Net::HTTP::Spore::Middleware::Header' => 0,
+        'JSON::API'                            => '1.0.7',
         'Params::Validate'                     => 0,
         'Readonly'                             => 0,
         'URI'                                  => 0,
+        'URI::Encode'                          => 0,
     },
     configure_requires => {
         'Module::Build' => 0.38,

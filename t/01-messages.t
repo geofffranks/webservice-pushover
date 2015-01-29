@@ -27,7 +27,7 @@ pushover_ok 'message', {
 	headers => ignore,
 	path    => '/1/messages.json',
 	data    => {
-		message => 'test%20message',
+		message => 'test message',
 		user    => $user,
 		token   => $token,
 	},
@@ -39,7 +39,7 @@ pushover_ok 'message', {
 	headers => ignore,
 	path    => '/1/messages.json',
 	data    => {
-		message => 'test%20message',
+		message => 'test message',
 		user    => $USER_TOKEN,
 		token   => $API_TOKEN,
 	},
